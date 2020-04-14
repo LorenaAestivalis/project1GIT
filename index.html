@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0 user-scalable=no">
+	<meta charset="utf-8">
+	<title>My First Restful**</title>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="eMap.js"></script>
+</head>
+<body>
+	<div>
+		
+		<input type="submit" id="submit" ><br>
+		<input type="text" id="mensaje" ><br>
+	</div>
+	<div id="content">
+	</div>
+	<script >
+		document.getElementById("submit").addEventListener("click", function(){
+        eMap("MY Hellow World"+document.getElementById("mensaje").value);
+		});
+	</script>
+  
+</body>
+</html>
